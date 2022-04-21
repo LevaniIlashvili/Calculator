@@ -89,7 +89,7 @@ equal.addEventListener("click", () =>{
             display.textContent = operate(operator, previousNum, currentNum).toFixed(2);
             currentNum = operate(operator, previousNum, currentNum).toFixed(2);
             operator = "";
-        }
+            }
     }
     
 });

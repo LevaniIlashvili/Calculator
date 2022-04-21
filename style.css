@@ -5,15 +5,9 @@
     color: #e6e2d3;
 }
 
-body {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .display {
-    font-size: 70px;
+    font-size: 40px;
     display: flex;
     width: 265px;
     height: 100px;
@@ -23,7 +17,7 @@ body {
 
 .number {
     background-color: #3e4444;
-    font-size: 40px;
+    font-size: 30px;
     border: none;
     border-radius: 50%;
     padding: 10px 20px;
@@ -31,7 +25,7 @@ body {
 
 .dot {
     background-color:#3e4444;
-    font-size: 40px;
+    font-size: 30px;
     border: none;
     border-radius: 50%;
     padding: 0 27px;
@@ -51,7 +45,7 @@ body {
 
 .clear {
     background-color:#3e4444;
-    font-size: 40px;
+    font-size: 30px;
     border: none;
     border-radius: 80px;
     padding: 10px 70px;
@@ -66,7 +60,7 @@ body {
 
 .operator, .equal {
     background-color: #ff7b25;
-    font-size: 40px;
+    font-size: 30px;
     border: none;
     border-radius: 50%;
     padding: 10px 10px;
@@ -79,8 +73,22 @@ body {
 }
 
 .calculator {
+    margin-top: 5%;
     background-color: #0e1111;
     width: max-content;
     padding: 20px;
     border-radius: 20px;
+}
+
+.copyright {
+    margin-top: auto;
+    color: black;
+    flex-shrink: 0;
+}
+
+.main-container {
+    min-height: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
